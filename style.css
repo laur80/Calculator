@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  height: 100%;
+  background-color: rgb(129, 230, 109);
+}
+
+.output {
+  line-height: 80px;
+  height: 80px;
+  background-color: white;
+  color: black;
+  margin-bottom: 20px;
+  font-size: 3.4em;
+  text-align: right;
+  font-family: monospace;
+  padding: 0.8px;
+  padding-right: 20px;
+}
+
+.myCalc {
+  width: 600px;
+  height: 600px;
+  background-color: black;
+  padding: 5px;
+  margin-left: 550px;
+  margin-top: 200px;
+}
+
+.raw {
+  width: 100%;
+}
+
+.btn {
+  width: 5em;
+  height: 4em;
+  padding: 7px;
+  margin: 4px;
+  border-radius: 15px;
+  background-color: rgb(76, 224, 47);
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  vertical-align: middle;
+  line-height: 3em;
+  display: inline-block;
+}
+.opbtn {
+  background-color: blue;
+}
