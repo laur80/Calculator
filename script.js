@@ -13,10 +13,10 @@ const myOper = ['+', '-', '*', '/'];
 
 // add calculator keys------------------------------------------------------------------
 
-for (y = 0; y < myKeys.length; y++) {
+for (let y = 0; y < myKeys.length; y++) {
   let div = document.createElement('div');
   div.classList.add('row');
-  for (x = 0; x < myKeys[y].length; x++) {
+  for (let x = 0; x < myKeys[y].length; x++) {
     // console.log(myKeys[y][x]);
     let btn = document.createElement('div');
     btn.innerHTML = myKeys[y][x];
@@ -36,9 +36,7 @@ function btnHit(e) {
   if (myCalc === '0') {
     myCalc = '';
   }
-  // if (myValue === '+') {
-  //   btn.classList.add(opbtn);
-  // }
+  
   if (myValue === '=') {
     myCalc = eval(myCalc);
   } else {
@@ -47,7 +45,7 @@ function btnHit(e) {
     if (myOper.includes(myValue)) {
       if (myOper.includes(lastChar)) {
         myCalc = myCalc.substring(0, myCalc.length - 1);
-        btn.classList.add(opbtn);
+        
       } else {
         myCalc = eval(myCalc);
       }
