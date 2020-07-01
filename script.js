@@ -33,7 +33,7 @@ for (let y = 0; y < myKeys.length; y++) {
 
 for (let i = 0; i < myOper.length; i++) {
   let div2 = document.createElement('div');
-  for (let k = 0; k < myOper.length; k++) {
+  for (let k = 0; k < myOper[i].length; k++) {
     let btnOper = document.createElement('div');
     btnOper.innerHTML = myOper[i][k];
     btnOper.classList.add('btn');
