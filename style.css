@@ -1,7 +1,7 @@
 body {
   margin: 0;
   height: 100%;
-  background-color: rgb(129, 230, 109);
+  background-color: gray;
 }
 
 .output {
@@ -24,10 +24,15 @@ body {
   padding: 5px;
   margin-left: 550px;
   margin-top: 200px;
+  display: inline-table;
 }
 
 .raw {
-  width: 100%;
+  width: 20%;
+}
+.raw2 {
+  display: flex;
+  align-items: center;
 }
 
 .btn {
@@ -36,7 +41,7 @@ body {
   padding: 7px;
   margin: 4px;
   border-radius: 15px;
-  background-color: rgb(76, 224, 47);
+  background-color: rgb(139, 177, 35);
   text-align: center;
   font-size: 1.5em;
   cursor: pointer;
@@ -44,6 +49,15 @@ body {
   line-height: 3em;
   display: inline-block;
 }
+
 .opbtn {
   background-color: blue;
+}
+
+.oper {
+  width: 10%;
+  background-color: blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
 }
