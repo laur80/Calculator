@@ -57,7 +57,7 @@ function evaluates(value) {
 function evaluatesOperator(value) {
   // console.log(value);
   if (myCalc === '0') {
-    myCalc = '';
+    myCalc = parseInt('0');
   }
 
   if (value === 'C') {
