@@ -68,10 +68,10 @@ function evaluatesOperator(value) {
   if (value === '+' || value === '-' || value === '*' || value === '/') {
     operator = value;
     display.innerText = operator;
-    // console.log(previousOperator);
+   
     firstNumber = parseInt(myCalc);
     myCalc = '';
-    // console.log(firstNumber);
+    
   }
 
   if (value === '=') {
